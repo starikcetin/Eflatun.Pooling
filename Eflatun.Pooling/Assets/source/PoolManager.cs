@@ -1,4 +1,7 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
+using Eflatun.CodePatterns;
+using Eflatun.Expansions;
 using UnityEngine;
 
 namespace Eflatun.Pooling

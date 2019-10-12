@@ -1,3 +1,15 @@
-﻿{
-	"name": "Eflatun.Pooling"
+{
+    "name": "Eflatun.Pooling",
+    "references": [
+        "GUID:79d5424ecabb1704ab80e14d90b516e8",
+        "GUID:81137315edbcea844b9cef287833f005"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
 }
