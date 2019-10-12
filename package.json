@@ -1,9 +1,12 @@
 {
     "author": "starikcetin <cetinsamedtarik@gmail.com> (https://github.com/starikcetin)",
-    "dependencies": {},
+    "dependencies": {
+		"com.eflatun.codepatterns": "https://github.com/starikcetin/Eflatun.CodePatterns.git#0.0.1",
+		"com.eflatun.expansions": "https://github.com/EflatunLibraries/Eflatun.Expansions.git#0.2.0"
+	},
     "description": "Object pooling utilities for Unity.",
     "displayName": "Eflatun.Pooling",
     "license": "MIT",
     "name": "com.eflatun.pooling",
-    "version": "0.0.1"
+    "version": "0.0.2"
 }
