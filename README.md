@@ -1,11 +1,16 @@
+[![openupm](https://img.shields.io/npm/v/com.eflatun.pooling?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.eflatun.pooling/)
+
 # Eflatun.Pooling
 Object pooling utilities for Unity.
 
-This repository has UPM support. Use https://github.com/mob-sakai/UpmGitExtension for installing it directly in Unity.
+## Install
 
-You also need to install this package in order to resolve the dependencies: https://github.com/mob-sakai/GitDependencyResolverForUnity
+```
+npm install -g openupm-cli
+openupm add com.eflatun.pooling
+```
 
-----
+## Licence
 
 MIT Licence. Refer to the [LICENSE](/LICENSE) file.
 
