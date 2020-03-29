@@ -40,7 +40,9 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
+    "com.unity.modules.xr": "1.0.0",
+    "com.eflatun.codepatterns": "0.0.1",
+    "com.eflatun.expansions": "0.2.0"
   },
   "lock": {
     "com.coffee.git-dependency-resolver": {
@@ -51,5 +53,16 @@
       "revision": "0.9.1",
       "hash": "79fa88282ae1233e4841d87fd256b80f13cd8b62"
     }
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.eflatun.codepatterns",
+        "com.eflatun.expansions",
+        "com.openupm"
+      ]
+    }
+  ]
 }
