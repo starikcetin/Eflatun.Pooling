@@ -70,16 +70,16 @@ namespace Eflatun.Pooling
         public void Despawn(GameObject toDespawn)
         {
             KeyValuePair<GameObject, PrefabPool> foundEntry =
-                _allPools.SingleOrDefault(a => a.Value.ActiveObjects.Contains(gameObject));
+                _allPools.SingleOrDefault(a => a.Value.ActiveObjects.Contains(toDespawn));
 
             if (foundEntry.Key != null)
             {
                 PrefabPool pool = foundEntry.Value;
-                pool.Despawn(gameObject);
+                pool.Despawn(toDespawn);
             }
             else
             {
-                Destroy(gameObject);
+                Destroy(toDespawn);
             }
         }
     }
